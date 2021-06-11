@@ -23,3 +23,6 @@ function App() {
 }
 
 export default App;
+
+// Comment out this line below to fix reloading:
+export const x = 5;

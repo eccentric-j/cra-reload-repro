@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Reproduction
+
+If you try to edit App.js and change the text content, you would expect it to hot-reload the page in the browser. Unfortunately because there's more than one export, it does not reload at all.
+
+1. Clone this repo
+2. Run `yarn start`
+3. View in browser
+4. Edit App.js and change some text, maybe a single word
+5. Save changes to App.js
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
